@@ -3,7 +3,7 @@
 **EFFECTIVE DATE:** December 19, 2024  
 **PROJECT:** ConsoleMod - Terminal UI Library  
 **DEVELOPER:** 404Development LLC  
-**CONTACT:** consolemode@404development.dev
+**CONTACT:** consolemod@404development.dev
 
 ---
 
@@ -22,6 +22,7 @@ This code and documentation are created **solely for human consumption and educa
 You may **NOT** use ConsoleMod for:
 
 1. **AI/ML Training Data**
+
    - ✗ Training datasets for machine learning models
    - ✗ Input data for neural network training
    - ✗ Text corpora for language model training
@@ -29,6 +30,7 @@ You may **NOT** use ConsoleMod for:
    - ✗ Documentation for document processing models
 
 2. **Large Language Model (LLM) Training**
+
    - ✗ Feeding source code to GPT, Claude, Llama, or similar models
    - ✗ Using for fine-tuning or instruction tuning
    - ✗ Including in training datasets for any LLM
@@ -36,6 +38,7 @@ You may **NOT** use ConsoleMod for:
    - ✗ Creating synthetic data based on ConsoleMod
 
 3. **Machine Learning Development**
+
    - ✗ Training classification models on ConsoleMod code
    - ✗ Using for computer vision training
    - ✗ Training NLP models with ConsoleMod
@@ -44,6 +47,7 @@ You may **NOT** use ConsoleMod for:
    - ✗ Model optimization datasets
 
 4. **AI Model Deployment**
+
    - ✗ Deploying models trained on ConsoleMod
    - ✗ Using ConsoleMod as part of AI inference pipelines
    - ✗ Generating outputs based on ConsoleMod patterns
@@ -51,6 +55,7 @@ You may **NOT** use ConsoleMod for:
    - ✗ Using ConsoleMod in AI-powered products
 
 5. **Related AI Technologies**
+
    - ✗ Robotics systems trained on ConsoleMod
    - ✗ Autonomous systems using ConsoleMod
    - ✗ Generative AI systems based on ConsoleMod
@@ -58,6 +63,7 @@ You may **NOT** use ConsoleMod for:
    - ✗ Reinforcement learning environments based on ConsoleMod
 
 6. **AI Scraping & Harvesting**
+
    - ✗ Scraping ConsoleMod code for AI training
    - ✗ Automated collection for ML datasets
    - ✗ Harvesting documentation for LLM training
@@ -65,6 +71,7 @@ You may **NOT** use ConsoleMod for:
    - ✗ Copying to AI training platforms
 
 7. **Commercial AI Applications**
+
    - ✗ Building commercial AI products using ConsoleMod
    - ✗ Creating AI-as-a-Service using ConsoleMod
    - ✗ Proprietary AI systems based on ConsoleMod
@@ -104,23 +111,27 @@ You **MAY** use ConsoleMod for:
 ConsoleMod is a **hobby project created by humans, for humans**. This opt-out exists to:
 
 1. **Protect Human Creativity**
+
    - Ensure human-made work isn't used to replace or devalue human work
    - Preserve the human-to-human nature of the project
    - Protect hobby developers from AI commercialization
 
 2. **Prevent Unauthorized Use**
+
    - Prevent large corporations from using free code for AI training
    - Stop extraction of code for proprietary AI systems
    - Prevent monetization of human-created work through AI
    - Ensure fair use principles are respected
 
 3. **Maintain Project Intent**
+
    - Keep ConsoleMod as a human education tool
    - Prevent conversion into AI training data
    - Preserve the hobby nature of the project
    - Respect the original creator's vision
 
 4. **Protect Community**
+
    - Stop AI systems trained on ConsoleMod
    - Prevent AI-generated versions claiming to be ConsoleMod
    - Protect attribution and credit
@@ -139,6 +150,7 @@ ConsoleMod is a **hobby project created by humans, for humans**. This opt-out ex
 ### This Is a Legal Requirement
 
 This opt-out is:
+
 - ✓ Part of the 404_CM-v1.0 license agreement
 - ✓ Legally binding restriction on use
 - ✓ Enforceable under intellectual property law
@@ -149,17 +161,20 @@ This opt-out is:
 Using ConsoleMod for AI/ML purposes in violation of this opt-out:
 
 1. **Breaches the 404_CM-v1.0 License**
+
    - Violates terms of use
    - Results in immediate license termination
    - Removes all rights to use ConsoleMod
 
 2. **May Result In Legal Action**
+
    - Copyright infringement claims
    - Intellectual property violation
    - Licensing breach lawsuits
    - Cease and desist orders
 
 3. **Affects Your AI Products**
+
    - Models trained on ConsoleMod are unlicensed
    - Cannot be legally deployed or sold
    - Subject to takedown notices
@@ -174,6 +189,7 @@ Using ConsoleMod for AI/ML purposes in violation of this opt-out:
 ### Detection
 
 404Development LLC will:
+
 - Monitor for unauthorized AI training use
 - Check AI model training documentation
 - Verify compliance through available means
@@ -192,9 +208,10 @@ If you believe an AI model was trained on ConsoleMod, this is likely a violation
 
 If you discover ConsoleMod being used for AI training:
 
-**Contact:** consolemode@404development.dev
+**Contact:** consolemod@404development.dev
 
 **Include:**
+
 1. Description of suspected violation
 2. URL or proof of AI training data source
 3. Model name and publisher
@@ -212,22 +229,25 @@ All reports will be investigated.
 **You must:**
 
 1. **Remove ConsoleMod Immediately**
+
    - Stop training with ConsoleMod data
    - Remove ConsoleMod from datasets
    - Halt any in-progress training
 
 2. **Notify 404Development LLC**
-   - Email: consolemode@404development.dev
+
+   - Email: consolemod@404development.dev
    - Provide details of what was used
    - Explain remediation steps
 
 3. **Document Your Compliance**
+
    - Confirm ConsoleMod removal
    - Provide evidence of cessation
    - Maintain records of compliance
 
 4. **Get Written Permission (If Needed)**
-   - Contact: consolemode@404development.dev
+   - Contact: consolemod@404development.dev
    - Request explicit AI training consent
    - Wait for written authorization
    - No consent assumed
@@ -237,18 +257,21 @@ All reports will be investigated.
 You must:
 
 1. **Request Permission**
-   - Email: consolemode@404development.dev
+
+   - Email: consolemod@404development.dev
    - Explain specific AI use case
    - Describe the model and training
    - Provide implementation details
 
 2. **Negotiate Terms**
+
    - 404Development LLC may grant permission
    - Terms will be negotiated individually
    - Written agreement required
    - Likely requires compensation
 
 3. **Obtain Written Consent**
+
    - Email permission alone is insufficient
    - Formal agreement required
    - Both parties must sign
@@ -290,6 +313,7 @@ Using ConsoleMod for AI/ML violates the 404_CM-v1.0 license because:
 ### What Is AI/ML For This Policy?
 
 **Includes:**
+
 - Artificial Intelligence systems
 - Machine Learning models
 - Large Language Models (LLMs)
@@ -301,6 +325,7 @@ Using ConsoleMod for AI/ML violates the 404_CM-v1.0 license because:
 - Any automated learning systems
 
 **Includes Training:**
+
 - Initial training
 - Fine-tuning
 - Instruction tuning
@@ -311,6 +336,7 @@ Using ConsoleMod for AI/ML violates the 404_CM-v1.0 license because:
 - Synthetic data generation
 
 **Includes Deployment:**
+
 - Using trained models
 - Inference on ConsoleMod-derived models
 - Production AI systems
@@ -319,6 +345,7 @@ Using ConsoleMod for AI/ML violates the 404_CM-v1.0 license because:
 - Automated outputs based on training
 
 **Includes Related:**
+
 - Feature extraction
 - Embeddings generation
 - Dataset creation
@@ -371,46 +398,59 @@ These uses are explicitly permitted:
 ## FAQ
 
 ### Q: Can I use ConsoleMod as reference for training my AI?
+
 **A:** No. Reference material for AI training is still AI training. Not permitted.
 
 ### Q: What about indirect use - like using AI to understand ConsoleMod first?
+
 **A:** Still prohibited. Any AI involvement in preparation for AI training is not allowed.
 
 ### Q: Can a developer use AI to write ConsoleMod code?
+
 **A:** That's between the developer and the license terms. But once generated, that code cannot then be used for AI training.
 
 ### Q: What if my company accidentally included ConsoleMod in training data?
-**A:** Contact consolemode@404development.dev immediately with details. Accidental inclusion requires notification and remediation plan.
+
+**A:** Contact consolemod@404development.dev immediately with details. Accidental inclusion requires notification and remediation plan.
 
 ### Q: Can I request permission for AI training use?
-**A:** Yes, email consolemode@404development.dev. Permission is not automatically granted and will be evaluated case-by-case.
+
+**A:** Yes, email consolemod@404development.dev. Permission is not automatically granted and will be evaluated case-by-case.
 
 ### Q: What about educational AI projects?
+
 **A:** Educational use must be human-centric. If the AI is trained on ConsoleMod, not permitted. If AI helps teach humans about ConsoleMod, may be different - contact for clarification.
 
 ### Q: Does this apply to old versions?
+
 **A:** Yes, all versions of ConsoleMod (including before this policy was added) have this restriction.
 
 ### Q: What about forks or derivatives?
+
 **A:** Forks created under 404_CM-v1.0 inherit this restriction. Derivatives must comply.
 
 ### Q: Can web scrapers collect ConsoleMod for AI?
+
 **A:** No. Automated collection for AI training violates this policy.
 
 ### Q: What about mirror sites?
+
 **A:** Creating mirrors to distribute ConsoleMod for AI training violates this policy.
 
 ### Q: Does this prevent me from using ConsoleMod for projects?
+
 **A:** No. You can use ConsoleMod in applications. You just can't train AI on it.
 
 ### Q: What if ConsoleMod is already in a dataset I'm using?
-**A:** Remove it immediately and notify consolemode@404development.dev if it was collected for your purposes.
+
+**A:** Remove it immediately and notify consolemod@404development.dev if it was collected for your purposes.
 
 ---
 
 ## Acknowledgments
 
 This opt-out policy is inspired by and aligned with:
+
 - The Responsible AI movement
 - Data ethical principles
 - Creator rights protection
@@ -427,9 +467,10 @@ ConsoleMod stands against the unauthorized use of human-created work for AI trai
 
 If you have questions about whether your use is permitted:
 
-**Email:** consolemode@404development.dev
+**Email:** consolemod@404development.dev
 
 **Include:**
+
 1. Description of your intended use
 2. Whether it involves AI/ML
 3. Specific model or system details
@@ -440,9 +481,10 @@ If you have questions about whether your use is permitted:
 
 To report suspected violations:
 
-**Email:** consolemode@404development.dev
+**Email:** consolemod@404development.dev
 
 **Include:**
+
 1. Description of violation
 2. URL or evidence
 3. Date discovered
@@ -453,11 +495,12 @@ To report suspected violations:
 
 To request permission for AI-related use:
 
-**Email:** consolemode@404development.dev
+**Email:** consolemod@404development.dev
 
 **Subject:** "ConsoleMod AI Use Permission Request"
 
 **Include:**
+
 1. Company/Organization name
 2. Specific use case
 3. Model details
@@ -473,6 +516,7 @@ To request permission for AI-related use:
 ### Binding Agreement
 
 By using ConsoleMod, you agree to:
+
 - ✓ Not use for AI/ML training
 - ✓ Not use for model development
 - ✓ Not use for AI deployment
@@ -480,6 +524,7 @@ By using ConsoleMod, you agree to:
 - ✓ Notify of violations
 
 Violation of this policy:
+
 - Breaches the 404_CM-v1.0 license
 - Removes all rights to use ConsoleMod
 - May result in legal action
@@ -488,6 +533,7 @@ Violation of this policy:
 ### Jurisdiction
 
 This policy is enforced by:
+
 - 404Development LLC
 - Project maintainers
 - Community members reporting violations
@@ -500,15 +546,16 @@ ConsoleMod is provided "as is". No warranty of AI-safe usage. Using ConsoleMod f
 
 ## Version History
 
-| Version | Date | Change |
-|---------|------|--------|
-| 1.0 | 2024-12-19 | Initial opt-out policy |
+| Version | Date       | Change                 |
+| ------- | ---------- | ---------------------- |
+| 1.0     | 2024-12-19 | Initial opt-out policy |
 
 ---
 
 ## Integration With Other Documents
 
 This opt-out is referenced in:
+
 - [404_CM-v1.0](404_CM-v1.0) - License file
 - [README.md](README.md) - Main documentation
 - [CONTRIBUTORS.md](CONTRIBUTORS.md) - Attribution guide
@@ -529,11 +576,11 @@ All use must comply with this policy and the 404_CM-v1.0 license.
 - ✅ Human education only
 - ✅ Human hobby projects only
 
-**Questions?** Email: consolemode@404development.dev
+**Questions?** Email: consolemod@404development.dev
 
 ---
 
-*ConsoleMod - Strictly for Human Consumption*  
-*This policy is binding and enforceable.*  
-*Version 1.0 | December 19, 2024*  
-*License: 404_CM-v1.0*
+_ConsoleMod - Strictly for Human Consumption_  
+_This policy is binding and enforceable._  
+_Version 1.0 | December 19, 2024_  
+_License: 404_CM-v1.0_

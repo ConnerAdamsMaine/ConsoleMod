@@ -2,7 +2,7 @@
 
 A powerful, thread-safe terminal UI library combining the best of Rich and Curses with modern async support. Build sophisticated terminal applications with multiple interactive panes, real-time logging, and responsive keyboard controls.
 
-**Status:** Hobby Project | **License:** 404_CM-v1.0 (Custom) | **AI/ML:** See [OPTOUT.md](OPTOUT.md) | **Support:** consolemode@404development.dev
+**Status:** Hobby Project | **License:** 404_CM-v1.0 (Custom) | **AI/ML:** See [OPTOUT.md](OPTOUT.md) | **Support:** consolemod@404development.dev
 
 ## Table of Contents
 
@@ -20,12 +20,14 @@ A powerful, thread-safe terminal UI library combining the best of Rich and Curse
 ## Features
 
 ### 🎨 Theming & Styling
+
 - Pre-built themes: Dark, Light, Solarized
 - Custom theme support with fine-grained control
 - Style objects for colors, bold, italic, underline, dim effects
 - Dynamic theme switching at runtime
 
 ### 🔄 Interactive Controls
+
 - Keyboard navigation (Tab, Shift+Tab for pane focus)
 - Arrow key scrolling within panes
 - Event-based system for custom key handlers
@@ -33,12 +35,14 @@ A powerful, thread-safe terminal UI library combining the best of Rich and Curse
 - Configurable keybindings
 
 ### 📐 Flexible Layouts
+
 - Vertical, Horizontal, and Grid layout modes
 - Per-pane weight control for flexible sizing
 - Automatic layout calculation and adjustment
 - Dynamic layout switching
 
 ### 📝 Logging & Formatting
+
 - PaneLogger with color-coded levels (DEBUG, INFO, WARNING, ERROR, CRITICAL)
 - Integration with Python's standard logging module
 - Comprehensive text formatting utilities:
@@ -49,6 +53,7 @@ A powerful, thread-safe terminal UI library combining the best of Rich and Curse
   - Box drawing for visual emphasis
 
 ### 🎛️ Widgets
+
 - ProgressBar with percentage and fill visualization
 - Spinner with customizable animation
 - Table with automatic column alignment
@@ -57,6 +62,7 @@ A powerful, thread-safe terminal UI library combining the best of Rich and Curse
 - Selection lists and checkboxes
 
 ### 🔒 Thread Safety
+
 - RLock-based synchronization for all state
 - Dual sync/async API for all operations
 - Safe handler execution across threads
@@ -64,12 +70,14 @@ A powerful, thread-safe terminal UI library combining the best of Rich and Curse
 - Non-blocking I/O operations
 
 ### 📊 Performance Monitoring
+
 - Real-time FPS tracking
 - Frame timing metrics
 - Per-pane memory tracking
 - Performance metrics collection and reporting
 
 ### 🎯 Advanced Features
+
 - Debouncing and throttling utilities
 - Command history with navigation
 - Undo/redo stack for state management
@@ -80,6 +88,7 @@ A powerful, thread-safe terminal UI library combining the best of Rich and Curse
 ## Installation
 
 ### From Source
+
 ```bash
 # Clone or download the repository
 cd ConsoleMod
@@ -93,6 +102,7 @@ sys.path.insert(0, '/path/to/ConsoleMod')
 ```
 
 ### Requirements
+
 - Python 3.7+
 - Rich library (for rendering)
 - Standard library: asyncio, threading, logging
@@ -108,29 +118,29 @@ from ConsoleMod import TerminalSplitter, Pane, PaneLogger
 async def main():
     # Create the main UI controller
     splitter = TerminalSplitter(fps=30, theme="dark", enable_input=True)
-    
+
     # Create panes for different outputs
     logs_pane = Pane("logs", color="green")
     errors_pane = Pane("errors", color="red")
     status_pane = Pane("status", color="blue")
-    
+
     # Add panes to splitter
     splitter.add_pane(logs_pane)
     splitter.add_pane(errors_pane)
     splitter.add_pane(status_pane)
-    
+
     # Create loggers for each pane
     log_logger = PaneLogger(logs_pane, include_timestamp=True)
     error_logger = PaneLogger(errors_pane, include_timestamp=True)
-    
+
     # Log some messages
     await log_logger.ainfo("Application started")
     await log_logger.ainfo("Initializing components...")
     await error_logger.awarning("Example warning message")
-    
+
     # Write to status pane directly
     await status_pane.awrite("[green]Ready[/green]")
-    
+
     # Run the UI loop (blocks until Ctrl+C)
     await splitter.render_loop()
 
@@ -238,7 +248,7 @@ button = Button("Click Me", on_click)
 
 ```python
 from ConsoleMod import (
-    wrap_text, align_text, format_bytes, 
+    wrap_text, align_text, format_bytes,
     format_duration, create_box, TextAlign
 )
 
@@ -369,6 +379,7 @@ See [STRUCTURE.md](STRUCTURE.md) for detailed module documentation.
 Main UI controller for managing panes and rendering.
 
 **Constructor:**
+
 ```python
 TerminalSplitter(
     config: Optional[Union[str, Dict]] = None,
@@ -381,6 +392,7 @@ TerminalSplitter(
 ```
 
 **Key Methods:**
+
 - `add_pane(pane)` / `aadd_pane(pane)` - Add a pane to the splitter
 - `get_pane(pane_id)` / `aget_pane(pane_id)` - Get pane by ID
 - `get_panes()` / `aget_panes()` - Get all panes
@@ -398,6 +410,7 @@ TerminalSplitter(
 Content container with circular buffer storage.
 
 **Constructor:**
+
 ```python
 Pane(
     id: str,
@@ -411,6 +424,7 @@ Pane(
 ```
 
 **Key Methods:**
+
 - `write(message, style)` / `awrite(...)` - Write text to pane
 - `clear()` / `aclear()` - Clear all content
 - `scroll(direction, amount)` / `ascroll(...)` - Scroll content
@@ -422,6 +436,7 @@ Pane(
 Structured logging directly to panes with level coloring.
 
 **Constructor:**
+
 ```python
 PaneLogger(
     pane: Pane,
@@ -430,6 +445,7 @@ PaneLogger(
 ```
 
 **Key Methods:**
+
 - `debug(message)` / `adebug(message)` - Log debug message
 - `info(message)` / `ainfo(message)` - Log info message
 - `warning(message)` / `awarning(message)` - Log warning
@@ -442,6 +458,7 @@ PaneLogger(
 Layout manager for pane arrangement.
 
 **Modes:**
+
 - `LayoutMode.VERTICAL` - Stack panes top to bottom
 - `LayoutMode.HORIZONTAL` - Stack panes left to right
 - `LayoutMode.GRID` - Arrange in grid pattern
@@ -449,6 +466,7 @@ Layout manager for pane arrangement.
 ### Widgets
 
 UI component library:
+
 - `ProgressBar` - Progress visualization with percentage
 - `Spinner` - Animated loading indicator
 - `Table` - Formatted data table with columns
@@ -460,6 +478,7 @@ UI component library:
 ## Architecture
 
 ### Thread Safety
+
 All public methods use `threading.RLock()` for state synchronization. Both sync and async versions are provided for all operations:
 
 ```python
@@ -471,6 +490,7 @@ await pane.awrite("Message")
 ```
 
 ### Event System
+
 Keyboard events are processed through an event bus, allowing multiple handlers:
 
 ```python
@@ -481,6 +501,7 @@ async def handler(event: KeyEvent):
 ```
 
 ### Performance Optimization
+
 - 30 FPS default refresh rate (configurable)
 - Circular buffer with configurable line limits per pane
 - Debouncing for rapid updates
@@ -492,10 +513,12 @@ async def handler(event: KeyEvent):
 ConsoleMod is a hobby project. While not accepting external contributions through traditional means, we welcome feedback and suggestions.
 
 **To report issues or suggest features:**
-- Email: consolemode@404development.dev
+
+- Email: consolemod@404development.dev
 - Include detailed description and steps to reproduce
 
 **To use ConsoleMod in your projects:**
+
 - You may modify and extend for personal/hobby use
 - You must attribute the original creators
 - You must preserve this license and attribution
@@ -507,9 +530,10 @@ See [404_CM-v1.0](404_CM-v1.0) for full license terms.
 
 For questions, issues, or suggestions:
 
-**Email:** consolemode@404development.dev
+**Email:** consolemod@404development.dev
 
 **Documentation:**
+
 - [STRUCTURE.md](STRUCTURE.md) - Detailed module organization
 - [examples/](examples/) - Complete working examples
 - API Reference above
@@ -518,13 +542,13 @@ For questions, issues, or suggestions:
 
 Default shortcuts when `enable_input=True`:
 
-| Key | Action |
-|-----|--------|
-| **Tab** | Next pane |
-| **Shift+Tab** | Previous pane |
-| **Up Arrow** | Scroll up in focused pane |
+| Key            | Action                      |
+| -------------- | --------------------------- |
+| **Tab**        | Next pane                   |
+| **Shift+Tab**  | Previous pane               |
+| **Up Arrow**   | Scroll up in focused pane   |
 | **Down Arrow** | Scroll down in focused pane |
-| **Ctrl+C** | Exit application |
+| **Ctrl+C**     | Exit application            |
 
 ## Performance
 
@@ -536,6 +560,7 @@ Default shortcuts when `enable_input=True`:
 ## Version History
 
 ### v0.1.0
+
 - Initial release
 - Core UI framework with multi-pane support
 - Theming and styling system
@@ -559,6 +584,7 @@ This project represents collaborative effort in hobby software development.
 This code and documentation are created **exclusively for human consumption and education**. Any use of ConsoleMod for AI/ML purposes is explicitly prohibited.
 
 ### Prohibited Uses
+
 - ❌ Training datasets for machine learning
 - ❌ Large Language Model (LLM) training data
 - ❌ AI model development or fine-tuning
@@ -566,6 +592,7 @@ This code and documentation are created **exclusively for human consumption and 
 - ❌ Deployment in AI systems or products
 
 ### Permitted Uses
+
 - ✅ Human learning and education
 - ✅ Personal hobby projects
 - ✅ Building human-created applications
@@ -583,11 +610,13 @@ This is a binding restriction under the 404_CM-v1.0 license. Violations will res
 **404_CM-v1.0** - Custom hobby software license
 
 This project is licensed under the 404_CM-v1.0 license. You have the right to:
+
 - Use, modify, and implement this system for hobby/personal projects
 - Recreate and expand upon the codebase
 - Distribute modified versions for non-commercial use
 
 You may NOT:
+
 - Use this software for commercial or industrial purposes
 - Profit from this software in any way
 - Remove or modify license and attribution information
@@ -599,6 +628,6 @@ For the complete license text, see [404_CM-v1.0](404_CM-v1.0).
 
 ---
 
-**Support:** consolemode@404development.dev
+**Support:** consolemod@404development.dev
 **License:** [404_CM-v1.0](404_CM-v1.0)
 **Status:** Active (Hobby Project)

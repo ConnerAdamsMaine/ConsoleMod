@@ -13,9 +13,11 @@ ConsoleMod is a hobby project developed collaboratively. This file documents all
 ## Core Development Team
 
 ### Original Developer
+
 - **404Development LLC** - Original architecture, core framework, and initial implementation
 
 ### Project Coordinator
+
 - **Conner Adams** - Project management, architecture decisions, ongoing development
 
 ---
@@ -23,12 +25,14 @@ ConsoleMod is a hobby project developed collaboratively. This file documents all
 ## Contributors by Category
 
 ### Core Framework Development
+
 - Original architecture and design
 - Thread-safe UI rendering system
 - Event bus implementation
 - Pane management and layout system
 
 ### Feature Development
+
 - Theming and styling system
 - Keyboard input handling
 - Logging and formatting utilities
@@ -36,11 +40,13 @@ ConsoleMod is a hobby project developed collaboratively. This file documents all
 - Widget library
 
 ### Code Organization & Refactoring
+
 - Module structure reorganization
 - Import optimization
 - Documentation improvements
 
 ### Documentation & Examples
+
 - README and API documentation
 - Usage examples and guides
 - Architecture documentation (STRUCTURE.md)
@@ -53,13 +59,15 @@ ConsoleMod is a hobby project developed collaboratively. This file documents all
 If you have contributed to ConsoleMod (design, development, bug fixes, improvements, documentation, etc.), your contribution is valued and should be recognized.
 
 To have your name added:
-1. Email: consolemode@404development.dev
+
+1. Email: consolemod@404development.dev
 2. Include:
    - Your name (as you'd like it credited)
    - Contribution(s) or area of focus
    - Brief description of what you did
 
 **Example Format:**
+
 ```
 Name: [Your Name]
 Role: [Developer/Designer/Documentation/Testing]
@@ -79,7 +87,7 @@ ConsoleMod Contributors:
 - [List of contributors]
 
 Licensed under 404_CM-v1.0
-Support: consolemode@404development.dev
+Support: consolemod@404development.dev
 ```
 
 ---
@@ -87,30 +95,35 @@ Support: consolemode@404development.dev
 ## Contribution Types
 
 ### Code Contributions
+
 - New features and modules
 - Bug fixes and improvements
 - Performance optimizations
 - Code refactoring
 
 ### Design Contributions
+
 - Architecture decisions
 - UI/UX design
 - Module organization
 - System design
 
 ### Documentation Contributions
+
 - User guides and tutorials
 - API documentation
 - Examples and samples
 - Comments and docstrings
 
 ### Testing & Quality
+
 - Bug reports and testing
 - Code review and feedback
 - Performance testing
 - User experience feedback
 
 ### Community
+
 - Suggestions and feedback
 - Community support
 - Promotion and awareness
@@ -120,21 +133,25 @@ Support: consolemode@404development.dev
 ## Recognition Levels
 
 ### Level 1: User
+
 - Uses ConsoleMod
 - Provides feedback or suggestions
 - Reports issues
 
 ### Level 2: Contributor
+
 - Makes code contributions
 - Submits documentation improvements
 - Fixes bugs
 
 ### Level 3: Developer
+
 - Develops major features
 - Maintains modules
 - Leads improvements in specific areas
 
 ### Level 4: Maintainer
+
 - Manages project direction
 - Coordinates major releases
 - Oversees overall quality
@@ -143,17 +160,18 @@ Support: consolemode@404development.dev
 
 ## Contributor Statistics
 
-| Category | Count | Status |
-|----------|-------|--------|
-| Core Team | 1 | Active |
-| Contributors | TBD | Open |
-| Total Contributors | 1+ | Growing |
+| Category           | Count | Status  |
+| ------------------ | ----- | ------- |
+| Core Team          | 1     | Active  |
+| Contributors       | TBD   | Open    |
+| Total Contributors | 1+    | Growing |
 
 ---
 
 ## Current Contributors
 
 ### Conner Adams
+
 - **Role:** Developer / Project Coordinator
 - **Contributions:** Core development, architecture, documentation, code organization
 - **Areas:** Framework design, module restructuring, README expansion
@@ -174,21 +192,25 @@ Support: consolemode@404development.dev
 While ConsoleMod is a hobby project, contributors should:
 
 1. **Be Respectful**
+
    - Treat others with courtesy
    - Value different perspectives
    - Accept constructive feedback
 
 2. **Honor the License**
+
    - Ensure contributions comply with 404_CM-v1.0
    - No commercial contributions
    - Maintain hobby spirit
 
 3. **Provide Quality**
+
    - Test your contributions
    - Document your work
    - Follow code style guidelines
 
 4. **Proper Attribution**
+
    - Credit other contributors
    - Acknowledge sources
    - Maintain integrity
@@ -203,6 +225,7 @@ While ConsoleMod is a hobby project, contributors should:
 ## Special Thanks
 
 Special recognition to all individuals who have:
+
 - Provided feedback and suggestions
 - Reported bugs and issues
 - Used ConsoleMod in their projects
@@ -216,7 +239,8 @@ Your support helps make ConsoleMod a better hobby project for everyone.
 ## Contact & Support
 
 For contributor inquiries or to contribute:
-- **Email:** consolemode@404development.dev
+
+- **Email:** consolemod@404development.dev
 - **Project:** ConsoleMod
 - **License:** 404_CM-v1.0
 
@@ -227,11 +251,12 @@ Thank you for supporting ConsoleMod and the hobby software community!
 ## Version History of Contributors
 
 ### v0.1.0 (Initial Release)
+
 - Core team: 404Development LLC, Conner Adams
 - Initial framework and implementation
 
 ---
 
-*This document is maintained as part of the ConsoleMod project.*  
-*Last Updated: December 19, 2024*  
-*License: 404_CM-v1.0*
+_This document is maintained as part of the ConsoleMod project._  
+_Last Updated: December 19, 2024_  
+_License: 404_CM-v1.0_

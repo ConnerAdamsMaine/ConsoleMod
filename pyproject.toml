@@ -4,12 +4,12 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "consolemod"
-version = "0.1.0"
+version = "0.2.0"
 description = "A powerful, thread-safe terminal UI library with multi-pane support and async capabilities"
 readme = "README.md"
 
 authors = [
-    {name = "404Development LLC", email = "consolemode@404development.dev"},
+    {name = "404Development LLC", email = "consolemod@404development.dev"},
     {name = "Conner Adams"}
 ]
 requires-python = ">=3.9"
@@ -58,4 +58,7 @@ disallow_untyped_defs = false
 ignore_missing_imports = true
 
 [tool.setuptools]
-packages = ["ConsoleMod"]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = "src"
