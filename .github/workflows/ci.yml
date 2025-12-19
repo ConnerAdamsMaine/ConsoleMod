@@ -12,7 +12,7 @@ jobs:
     strategy:
       matrix:
         os: [ubuntu-latest, windows-latest, macos-latest]
-        python-version: ['3.7', '3.8', '3.9', '3.10', '3.11']
+        python-version: ['3.9', '3.10', '3.11', '3.12', '3.13']
 
     steps:
     - uses: actions/checkout@v3
@@ -35,12 +35,10 @@ jobs:
     - name: Type check with mypy
       run: |
         mypy ConsoleMod --ignore-missing-imports
-      continue-on-error: true
     
     - name: Run tests with pytest
       run: |
         pytest tests/ -v --tb=short
-      continue-on-error: true
 
   code-quality:
     runs-on: ubuntu-latest
@@ -61,7 +59,6 @@ jobs:
     - name: Check code format with black
       run: |
         black --check ConsoleMod --line-length=100
-      continue-on-error: true
 
   build:
     runs-on: ubuntu-latest

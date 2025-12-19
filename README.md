@@ -103,7 +103,7 @@ sys.path.insert(0, '/path/to/ConsoleMod')
 
 ### Requirements
 
-- Python 3.7+
+- Python 3.9+
 - Rich library (for rendering)
 - Standard library: asyncio, threading, logging
 
