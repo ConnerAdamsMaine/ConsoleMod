@@ -229,7 +229,7 @@ class MenuDialog:
 class ProgressDialog(Dialog):
     """Progress dialog"""
     
-    def __init__(self, title: str, message: str = "Processing...") -> None:
+    def __init__(self, title: str, message: str = "Processing..") -> None:
         """Initialize progress dialog
         
         Args:

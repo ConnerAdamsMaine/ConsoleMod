@@ -10,7 +10,7 @@ from ConsoleMod import (
 
 async def logger_template_example():
     """Example using LoggerTemplate"""
-    print("Running LoggerTemplate example...")
+    print("Running LoggerTemplate example..")
     
     logger = LoggerTemplate(name="Logger Example", theme="dark")
     
@@ -44,7 +44,7 @@ async def logger_template_example():
 
 async def dashboard_template_example():
     """Example using DashboardTemplate"""
-    print("Running DashboardTemplate example...")
+    print("Running DashboardTemplate example..")
     
     dashboard = DashboardTemplate(title="System Dashboard", theme="dark")
     
@@ -81,7 +81,7 @@ async def dashboard_template_example():
 
 async def monitor_template_example():
     """Example using MonitorTemplate"""
-    print("Running MonitorTemplate example...")
+    print("Running MonitorTemplate example..")
     
     monitor = MonitorTemplate(name="Process Monitor", theme="dark")
     
@@ -124,7 +124,7 @@ async def monitor_template_example():
 
 async def progress_template_example():
     """Example using ProgressTemplate"""
-    print("Running ProgressTemplate example...")
+    print("Running ProgressTemplate example..")
     
     progress = ProgressTemplate(title="Multi-Task Progress", theme="dark")
     
@@ -160,7 +160,7 @@ async def progress_template_example():
 
 async def table_template_example():
     """Example using TableTemplate"""
-    print("Running TableTemplate example...")
+    print("Running TableTemplate example..")
     
     table = TableTemplate(title="Data Table", theme="dark")
     

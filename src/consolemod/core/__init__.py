@@ -1,5 +1,5 @@
 """Core module - Terminal UI and pane management"""
-import TerminalSplitter
+from .core import TerminalSplitter
 from .pane import Pane
 from .events import EventBus, KeyEvent, FocusEvent, KeyCode
 

@@ -17,6 +17,15 @@ dependencies = [
     "rich>=10.0.0",
     "readchar>=3.0.0"
 ]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13"
+]
 
 [project.license]
 file = "LICENSE"
@@ -61,4 +70,4 @@ ignore_missing_imports = true
 package-dir = {"" = "src"}
 
 [tool.setuptools.packages.find]
-where = "src"
+where = ["src"]

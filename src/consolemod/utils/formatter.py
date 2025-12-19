@@ -80,7 +80,7 @@ def align_text(text: str, width: int, align: TextAlign = TextAlign.LEFT) -> str:
     return text
 
 
-def truncate_text(text: str, max_length: int, suffix: str = "...") -> str:
+def truncate_text(text: str, max_length: int, suffix: str = "..") -> str:
     """Truncate text to max length (thread-safe)
     
     Args:
@@ -146,7 +146,7 @@ def format_bytes(num_bytes: int) -> str:
     for unit in ['B', 'KB', 'MB', 'GB', 'TB']:
         if num_bytes < 1024:
             return f"{num_bytes:.1f} {unit}"
-        num_bytes /= 1024
+        num_bytes /= 1024.0
     
     return f"{num_bytes:.1f} PB"
 

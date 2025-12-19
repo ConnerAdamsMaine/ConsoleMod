@@ -12,7 +12,7 @@ from ConsoleMod import (
 
 async def form_example():
     """Example showing form handling"""
-    print("Running Form Example...")
+    print("Running Form Example..")
     
     logger = LoggerTemplate(name="Form Example")
     
@@ -78,7 +78,7 @@ async def form_example():
 
 async def menu_example():
     """Example showing menu system"""
-    print("Running Menu Example...")
+    print("Running Menu Example..")
     
     logger = LoggerTemplate(name="Menu Example")
     
@@ -112,7 +112,7 @@ async def menu_example():
         
         # Select and activate
         menu.select_item(0)
-        await logger.alog("Activating File menu...")
+        await logger.alog("Activating File menu..")
         menu.activate_selected()
         await asyncio.sleep(0.2)
         await logger.alog(f"Result: {results[-1]}")
@@ -128,7 +128,7 @@ async def menu_example():
 
 async def selection_list_example():
     """Example showing selection list"""
-    print("Running Selection List Example...")
+    print("Running Selection List Example..")
     
     logger = LoggerTemplate(name="Selection Example")
     
@@ -172,20 +172,20 @@ async def selection_list_example():
 
 async def dialog_example():
     """Example showing dialogs"""
-    print("Running Dialog Example...")
+    print("Running Dialog Example..")
     
     logger = LoggerTemplate(name="Dialog Example")
     
     async def process_dialogs():
         # Info dialog
-        await logger.alog("Showing info dialog...")
+        await logger.alog("Showing info dialog..")
         info_dialog = Dialog("Information", "Welcome to ConsoleMod TUI System!")
         info_dialog.open()
         await logger.alog(f"Dialog result: {info_dialog.get_result()}")
         await asyncio.sleep(0.5)
         
         # Confirm dialog
-        await logger.alog("Showing confirm dialog...")
+        await logger.alog("Showing confirm dialog..")
         confirm = ConfirmDialog("Confirm", "Do you want to continue?")
         confirm.open()
         await asyncio.sleep(0.3)
@@ -194,7 +194,7 @@ async def dialog_example():
         await asyncio.sleep(0.5)
         
         # Input dialog
-        await logger.alog("Showing input dialog...")
+        await logger.alog("Showing input dialog..")
         input_dlg = InputDialog("Input", "Enter your name:")
         input_dlg.open()
         input_dlg.set_input("John Doe")
@@ -204,7 +204,7 @@ async def dialog_example():
         await asyncio.sleep(0.5)
         
         # Menu dialog
-        await logger.alog("Showing menu dialog...")
+        await logger.alog("Showing menu dialog..")
         menu_dlg = MenuDialog("Choose", ["Option 1", "Option 2", "Option 3"])
         menu_dlg.open()
         menu_dlg.next_option()
@@ -225,7 +225,7 @@ async def dialog_example():
 
 async def keybinding_example():
     """Example showing keybinding system"""
-    print("Running Keybinding Example...")
+    print("Running Keybinding Example..")
     
     logger = LoggerTemplate(name="Keybinding Example")
     
@@ -255,7 +255,7 @@ async def keybinding_example():
                 await logger.alog(f"  {key.value}: {desc}")
         
         await asyncio.sleep(0.3)
-        await logger.alog("Simulating key events...")
+        await logger.alog("Simulating key events..")
         
         # Simulate key events
         key_events = [

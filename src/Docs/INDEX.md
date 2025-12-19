@@ -99,7 +99,7 @@ ConsoleMod/
 
 ## Quick Navigation
 
-### I Want To...
+### I Want To..
 
 #### Learn About ConsoleMod
 
@@ -295,16 +295,16 @@ ConsoleMod/
 
 ### By Question Type
 
-**"How do I...?"**
+**"How do I..?"**
 → [QUICKSTART.md](QUICKSTART.md#common-recipes)
 
-**"What's the API for...?"**
+**"What's the API for..?"**
 → [README.md](README.md#api-reference)
 
-**"Where is... in the code?"**
+**"Where is.. in the code?"**
 → [STRUCTURE.md](STRUCTURE.md)
 
-**"Can I use this for...?"**
+**"Can I use this for..?"**
 → [404_CM-v1.0](404_CM-v1.0#restrictions)
 
 **"How do I credit contributors?"**

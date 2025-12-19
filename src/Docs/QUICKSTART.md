@@ -206,7 +206,7 @@ theme = Theme(
     name="custom",
     pane_border=style,
     pane_focus=style,
-    # ... other styles
+    # .. other styles
 )
 ```
 

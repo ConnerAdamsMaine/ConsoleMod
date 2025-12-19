@@ -135,7 +135,7 @@ async def main():
 
     # Log some messages
     await log_logger.ainfo("Application started")
-    await log_logger.ainfo("Initializing components...")
+    await log_logger.ainfo("Initializing components..")
     await error_logger.awarning("Example warning message")
 
     # Write to status pane directly
@@ -233,7 +233,7 @@ table.add_row("Task 3", "Complete", "100%")
 print(table.render())
 
 # Spinner for loading states
-spinner = Spinner("Loading...")
+spinner = Spinner("Loading..")
 for _ in range(10):
     print(spinner.next_frame())
 
@@ -253,7 +253,7 @@ from ConsoleMod import (
 )
 
 # Wrapping long text
-long_text = "This is a very long text that needs to be wrapped..."
+long_text = "This is a very long text that needs to be wrapped.."
 lines = wrap_text(long_text, width=40)
 
 # Text alignment
@@ -309,8 +309,8 @@ dashboard.add_status("memory", "Memory: 2.3 GB")
 
 # Progress tracking UI
 progress_ui = ProgressTemplate(name="Tasks", theme="dark")
-progress_ui.add_task("download", "Downloading...", total=100)
-progress_ui.add_task("process", "Processing...", total=50)
+progress_ui.add_task("download", "Downloading..", total=100)
+progress_ui.add_task("process", "Processing..", total=50)
 ```
 
 ### History and Undo/Redo
@@ -398,7 +398,7 @@ TerminalSplitter(
 - `get_panes()` / `aget_panes()` - Get all panes
 - `get_focused_pane()` / `aget_focused_pane()` - Get currently focused pane
 - `set_layout_mode(mode)` / `aset_layout_mode(mode)` - Change layout mode
-- `set_pane_weight(pane_id, weight)` / `aset_pane_weight(...)` - Control sizing
+- `set_pane_weight(pane_id, weight)` / `aset_pane_weight(..)` - Control sizing
 - `render_loop()` - Start the async render loop
 - `stop()` / `astop()` - Stop rendering
 - `get_performance_metrics()` - Get FPS and timing data
@@ -425,11 +425,11 @@ Pane(
 
 **Key Methods:**
 
-- `write(message, style)` / `awrite(...)` - Write text to pane
+- `write(message, style)` / `awrite(..)` - Write text to pane
 - `clear()` / `aclear()` - Clear all content
-- `scroll(direction, amount)` / `ascroll(...)` - Scroll content
-- `set_focus(focused)` / `aset_focus(...)` - Set focus state
-- `get_visible_content(height)` / `aget_visible_content(...)` - Get displayed content
+- `scroll(direction, amount)` / `ascroll(..)` - Scroll content
+- `set_focus(focused)` / `aset_focus(..)` - Set focus state
+- `get_visible_content(height)` / `aget_visible_content(..)` - Get displayed content
 
 ### PaneLogger
 

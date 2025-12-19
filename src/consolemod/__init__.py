@@ -34,7 +34,7 @@ from .monitoring import (
 )
 
 # Utils module
-from ..utils import (
+from .utils import (
     wrap_text, align_text, truncate_text, highlight_text,
     format_bytes, format_duration, create_box, TextAlign,
     load_config, CircularBuffer,
@@ -43,7 +43,7 @@ from ..utils import (
 )
 
 # Templates (imported lazily to avoid circular imports)
-from ..utils.templates import (
+from .utils.templates import (
     LoggerTemplate, DashboardTemplate, MonitorTemplate, ProgressTemplate, TableTemplate
 )
 
