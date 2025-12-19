@@ -25,6 +25,35 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ---
 
+## [0.2.0] - 2025-12-19
+
+### Added
+
+#### Build & Packaging
+
+- pyproject.toml with full project metadata and dependencies
+- Version management with VERSION file and ConsoleMod/__version__.py
+- CI/CD workflow with GitHub Actions (.github/workflows/ci.yml)
+  - Multi-platform testing (Ubuntu, Windows, macOS)
+  - Multi-version Python testing (3.7-3.11)
+  - Linting with flake8
+  - Type checking with mypy
+  - Code formatting with black
+  - Build distribution and artifact upload
+
+#### Testing Infrastructure
+
+- Test directory structure (tests/)
+- pytest configuration in conftest.py
+- pytest and pytest-asyncio in dev dependencies
+
+### Changed
+
+- Improved project structure with standardized packaging
+- Enhanced development workflow with automated CI/CD
+
+---
+
 ## [0.1.0] - 2025-12-19
 
 ### Added
@@ -317,8 +346,8 @@ Email: consolemode@404development.dev
 
 ## Release Schedule
 
-- **v0.1.0:** December 19, 2024 (Initial Release)
-- **v0.2.0:** TBD (Extended widgets)
+- **v0.1.0:** December 19, 2025 (Initial Release)
+- **v0.2.0:** December 19, 2025 (Build & packaging infrastructure)
 - **v1.0.0:** TBD (Stable release)
 
 This is a hobby project without fixed release schedules.
@@ -355,5 +384,5 @@ Your feedback helps make ConsoleMod better for everyone!
 ---
 
 _This changelog is maintained as part of the ConsoleMod project._  
-_Last Updated: December 19, 2024_  
+_Last Updated: December 19, 2025_  
 _License: 404_CM-v1.0_
